@@ -9,6 +9,6 @@ git remote -v
 
 * Checkout remote branch
 ```
-git fetch
+git fetch remotename
 git checkout -b newlocalbranchname remotename/remotebranchname
 ```
