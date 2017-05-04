@@ -12,3 +12,12 @@ git remote -v
 git fetch remotename
 git checkout -b newlocalbranchname remotename/remotebranchname
 ```
+
+* Update .gitignore
+
+```
+nano .gitignore //do your edits
+git rm --cached -r .
+git add .
+git commit -am "Remove ignored files"
+```
